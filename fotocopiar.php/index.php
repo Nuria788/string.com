@@ -113,28 +113,28 @@ var_dump($personas); //Vemos todas las posiciones del array
 
 echo "<br><br>";
 
-echo «La raiz cuadrada de 4 es: «.sqrt(4);
+echo "La raiz cuadrada de 4 es: .sqrt(4)";
 
-echo «Número aleatorio entre 1 y 10: «.rand(1,10);
+echo "Número aleatorio entre 1 y 10: .rand(1,10)";
 
-echo «Redondeo: «.round(3.45678); //Mostraría 3
+echo "Redondeo: «.round(3.45678)"; //Mostraría 3
 
-echo «Redondeo: «.round(3.5678); //Mostraría 4
+echo "Redondeo: «.round(3.5678)"; //Mostraría 4
 
-echo «Redondeo: «.round(3.5678,2); //Mostraría 3.57
+echo "Redondeo: «.round(3.5678,2)"; //Mostraría 3.57
 
 
 
 echo "<br><br>";
 echo gettype($edad); //Mostraría integer
 
-is_string(nombre_variable), is_float(nombre_variable), …
+
 
 isset(nombre_variable); //muestra si existe la variable o no existe
 
 trim() //Elimina espacios por delante y por detrás de una variable. Muy útil para formularios.
 
-$nombre=»   jesus fernandez toledo        «;
+$nombre = jesus;
 
 trim($nombre);
 
