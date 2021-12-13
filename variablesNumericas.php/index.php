@@ -34,7 +34,7 @@ Calcula los cuadrados de los 30 primeros numeros naturales
 echo "<h2>Ejercicio 2</h2><br>";
 
 for($i = 1; $i <= 30; $i++){
-    echo "El numero de " . $i . " es ". ($i*$i) . "<br>";
+    echo "El cuadrado de " . $i . " es ". ($i*$i) . "<br>";
 
     
 }
