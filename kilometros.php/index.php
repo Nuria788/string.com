@@ -22,18 +22,6 @@
   </p>
 </form>
 
-<footer>
-  <p class="ultmod">
-    Última modificación de esta página:
-    <time datetime="2019-10-24">24 de octubre de 2019</time>
-  </p>
 
-  <p class="licencia">
-    Este programa forma parte del curso <strong><a href="https://www.mclibre.org/consultar/php/">Programación
-    web en PHP</a></strong> de <a href="https://www.mclibre.org/" rel="author">Bartolomé Sintes Marco</a>.<br>
-    El programa PHP que genera esta página se distribuye bajo
-    <a rel="license" href="http://www.gnu.org/licenses/agpl.txt">licencia AGPL 3 o posterior</a>.
-  </p>
-</footer>
 </body>
 </html>
