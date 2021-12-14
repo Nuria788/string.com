@@ -74,7 +74,7 @@ print "<p>-2.3 se redondea con floor() a " . floor(-2.3) . "</p>\n";
 
 echo "<h4> 5.- Potencias y RAICES
 La función pow(x, y) calcula x elevado a y.</h4>";
-print "<p>2<sup>3</sup> = " . pow(2, 3) . "</p>\n";
+print "<p>2<sup>4</sup> = " . pow(2, 4) . "</p>\n";
 print "\n";
 print "<p>2<sup>3</sup> = " . 2 ** 3 . "</p>\n";
 print "<p>La raíz cuadrada de 25 es " . pow(25, 1 / 2) . "</p>\n";
@@ -106,9 +106,9 @@ Argumentos El primer argumento es el valor mínimo que se quiere obtener
 El segundo argumento es el valor máximo que se quiere obtener. </h4>";
 
 
-print "<p>" . rand(-10, 10) . "</p>\n"; // -8
-print "<p>" . rand(-10, 10) . "</p>\n";// -10
-print "<p>" . rand(-10, 10) . "</p>\n"; // 3
+echo "<p>" . rand(-5, 25) . "</p>\n"; 
+print "<p>" . rand(-10, 10) . "</p>\n";
+print "<p>" . rand(-10, 10) . "</p>\n"; 
 echo(rand(10, 100));
 ?>
 </body>
