@@ -67,6 +67,65 @@ print "<p>true && true = " . var_export(true && true, 1) . "</p>\n";
   print "\n";
   print "<p>!false = " . var_export(!false, 1) . "</p>\n";
   print "\n";
+
+  /*
+Crea dos variables cuyo nombre sea "uno" y "dos"
+he imprimelas por pantalla. Pon un comentario 
+con el tipo de dato que contienen
+Ejercicio 1
+*/
+
+// String
+echo "<h2>Ejercicio 1</h2><br>";
+$uno = "Contenido de la variable 1";
+
+// Integer
+
+$dos = 245;
+
+echo "UNO: " . $uno. "<br>";
+echo "DOS: " . $dos. "<Hr>";
+
+
+/* Crea una funciones para el manejo de arreglos mediante el paso de parametros
+(Agregar, Mostrar y Ordenar) */
+
+echo "<h2>Ejercicio 9 Ordenar</h2>"; 
+function agregar($arreglo,$numero){
+    $arreglo[] = $numero;
+    return $arreglo;
+}
+function mostrar($arreglo){
+    for ($i = 0; $i < count($arreglo); $i++){
+        echo "[$i] = $arreglo[$i] ";
+    }
+    echo "<br>";
+}
+
+function ordenar ($arreglo){
+        for ($i = 0; $i < count($arreglo); $i++){
+            for ($j = 0; $j < count($arreglo)-1; $j++){
+                if($arreglo[$j] > $arreglo[$j + 1 ]){
+                    $temp = $arreglo[$j]; //temp =  9
+                    $arreglo[$j] = $arreglo[$j + 1];
+                    $arreglo [$j+1] = $temp;                
+            }  
+        }
+        mostrar($arreglo);
+    }
+    return $arreglo;
+}
+$a = array();
+$a = agregar($a,5);
+$a = agregar($a,8);
+$a = agregar($a,9);
+$a = agregar($a,1);
+$a = agregar($a,7);
+mostrar($a);
+$a = ordenar($a);
+echo "<br>";
+mostrar ($a);
+
 ?>
 </body>
 </html>
